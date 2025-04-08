@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
           document.getElementById('distanceValue').textContent = Math.max(0, distance - 10);
 
           // Перевірка досягнення пункту призначення
-          if (distance <= 5) {
+          if (distance <= 3) {
             const destinationModal = document.getElementById('destinationModal');
             if (destinationModal && destinationModal.style.display === 'none') {
               destinationModal.style.display = 'flex';
